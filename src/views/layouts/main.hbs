@@ -10,13 +10,16 @@
     <link rel="shortcut icon" href="/img/lumagit-icon.png">
     <link href="./css/tailwind.css" rel="stylesheet">
     <link href="./css/main.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>{{titulo}}</title>
 </head>
-<body>
+<body class="bg-gradient-to-b from-cyan-950 from-10% via-white via-30% to-emerald-400 to-90% 
+            bg-no-repeat">
     {{>nav}}
     <main class="">
         {{{ body }}}
     </main>
     {{>footer}}
+
 </body>
 </html>
